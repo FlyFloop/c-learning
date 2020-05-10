@@ -3,6 +3,23 @@
 //link:https://codeforwin.org/2015/05/if-else-programming-practice.html
 main(){
 	
+	
+	
+	//4-)Write a C program to check whether a number is divisible by 5 and 11 or not.
+	int sayi;
+	printf("bir sayi giriniz:");
+	scanf("%d",&sayi);
+	if(sayi%5==0 && sayi%11==0){
+		printf("girdiginiz sayi 5 ve 11 e bolunebiliyor");
+	}
+	else{
+		printf("girdiginiz sayi 5 ve 11 e bolunemiyor");
+	}
+	
+	
+	
+	/*
+	
 	//3-)Write a C program to check whether a number is negative, positive or zero.
 	int sayi;
 	printf("bir sayi giriniz:");
