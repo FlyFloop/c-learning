@@ -4,6 +4,11 @@
 main(){
 	
 	
+	//5-)Write a C program to check whether a number is even or odd.
+	
+	
+	
+	/*
 	
 	//4-)Write a C program to check whether a number is divisible by 5 and 11 or not.
 	int sayi;
