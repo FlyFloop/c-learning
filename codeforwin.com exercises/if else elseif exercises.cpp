@@ -4,8 +4,123 @@
 main(){
 	
 	
-	//5-)Write a C program to check whether a number is even or odd.
+	//10-)Write a C program to check whether a character is uppercase or lowercase alphabet.
+	char karakter;
+	printf("bir karakter giriniz:");
+	scanf(" %c",&karakter);
+	if(karakter>='a' && karakter<='z'){
+		printf("girdiginiz karakter kucuk harftir");
+	}
+	else if(karakter>='A' && karakter<='Z'){
+		printf("girdiginiz karakter buyuk harftir");
+	}
+	else{
+		printf("girdiginiz karakter alfabeden degildir");
+	}
 	
+	
+	
+	
+	
+	/*
+	
+	//9-)Write a C program to input any character and check whether it is alphabet, digit or special character.
+	char karakter;
+	printf("bir seye basin:");
+	scanf(" %c",&karakter);
+	if(karakter>='a' && karakter<='z'){
+		printf("girdiginiz karakter alfabedendir");
+	}
+	else if(karakter>='A' && karakter<='Z'){
+		printf("girdiginiz karkater alfabedendir");
+	}
+	else if(karakter>='1' && karakter<='9'){
+		printf("girdiginiz karakter sayidir");
+	}
+	else{
+		printf("girdiginiz karakter alfabeden degildir");
+	}
+	
+	
+	
+	
+	/*
+	
+	//8-)Write a C program to input any alphabet and check whether it is vowel or consonant.
+	char karakter;
+	printf("karakter giriniz:");
+	scanf(" %c",&karakter);
+	if(karakter=='a'||karakter=='e'||karakter=='i'||karakter=='o'||karakter=='u'){
+		printf("girdiginiz karakter sesli bir harftir");
+		
+	}
+	else if(karakter>='a' && karakter<='z'){
+		printf("girdiginiz karakter alfabedendir");
+	}
+	else if(karakter>='A' && karakter<='Z'){
+		printf("girdiginiz karakter alfabedendir");
+	}
+	else{
+		printf("girdiginiz karakter alfabeden degildir");
+	}
+	
+	
+	
+	
+	/*
+	
+	//7-)Write a C program to check whether a character is alphabet or not.
+	char karakter;
+	printf("bir karakter giriniz:");
+	scanf(" %c",&karakter);
+	if(karakter>='a' && karakter<='z'){
+		printf("girdiginiz karakter alfabedendir");
+	}
+	else if(karakter>='A' && karakter<='Z'){
+		printf("girdiginiz karakter alfabedendir");
+	}
+	else{
+		printf("girdiginiz karakter alfabeden degildir");
+	}
+	
+	
+	
+	
+	/*
+	
+	
+	//6-)Write a C program to check whether a year is leap year or not.
+	int yil;
+	printf("bir yil giriniz:");
+	scanf("%d",&yil);
+	if(yil%4==0 && yil%100!=0){
+		printf("sicrama yili");
+	}
+	else if(yil%400==0){
+       printf("sicrama yili");
+	}
+	else{
+		printf("sicrama yili degil");
+	}
+	
+	
+	
+	/*
+	
+	//5-)Write a C program to check whether a number is even or odd.
+	int sayi;
+	printf("bir sayi giriniz:");
+	scanf("%d",&sayi);
+	if(sayi%2==0){
+		printf("girdiginiz sayi cifttir");
+		
+	}
+	else if(sayi==0){
+		printf("girdiginiz sayi 0 dir");
+	}
+	else{
+		printf("girdiginiz sayi negatiftir");
+	}
 	
 	
 	/*
