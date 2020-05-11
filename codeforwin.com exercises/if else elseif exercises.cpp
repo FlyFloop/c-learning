@@ -5,7 +5,73 @@
 main(){
 	
 	
-	//not done
+	
+	
+	//21-)Write a C program to input electricity unit charges and calculate total electricity bill according to the given condition:
+	//For first 50 units Rs. 0.50/unit
+	//For next 100 units Rs. 0.75/unit
+	//For next 100 units Rs. 1.20/unit
+	//For unit above 250 Rs. 1.50/unit
+	//An additional surcharge of 20% is added to the bill
+	
+	   float birim,fiyat,tutar,net;
+	   printf("Kac birim urun almak istiyorsunuz:");
+	   scanf("%f",&birim);
+	if(birim<=50){
+		fiyat=0.5;
+	}
+	else if(birim>50 && birim<=100){
+		fiyat=0.75;
+	}
+	else if(birim>100 && birim<=200){
+		fiyat=1.2;
+	}
+	else if(birim>200){
+		fiyat=1.5;
+	}
+	tutar=birim*fiyat;
+	net=(20*tutar)/100;
+	printf("toplam fiyat:%.2f",net);
+	
+	
+	
+	
+	
+	
+	/*
+	//20-)Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
+	
+//Basic Salary <= 10000 : HRA = 20%, DA = 80%
+//Basic Salary <= 20000 : HRA = 25%, DA = 90%
+//Basic Salary > 20000 : HRA = 30%, DA = 95%
+	
+	float temel,brut,k1,k2;
+    printf("temel maasi giriniz: ");
+    scanf("%f",&temel);
+    if(temel <= 10000)
+    {
+        k1  = temel * 0.8;
+        k2 = temel * 0.2;
+    }
+    else if(temel <= 20000)
+    {
+        k1  = temel * 0.9;
+        k2 = temel * 0.25;
+    }
+    else
+    {
+        k1 = temel * 0.95;
+        k2= temel * 0.3;
+}
+   brut =temel+hra+da;
+   printf("brut maas:%f",brut);
+	
+	
+	
+	
+	
+	
+	/*
 	//19-)Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 	int fizik,kimya,biyo,mat,bilgi,ortalama;
 	printf("5 dersten aldiginiz notlari sirasiyla giriniz:");
